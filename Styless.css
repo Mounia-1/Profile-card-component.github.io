@@ -1,0 +1,148 @@
+
+html {
+    font-size: 18px;
+    
+}
+*{margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family:"Kumbh Sans";
+    src: url("https://fonts.google.com/specimen/Kumbh+Sans") format("ttf");
+    color: hsl(0, 11%, 12%)
+}
+
+section {
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    position: relative;
+}
+ .carte {
+     width:350px;
+     border-radius: 20px;
+     background:white;
+     overflow: hidden;
+     text-align: center;
+     position: relative;
+ }
+
+ .part1{
+     background-image: url("images/bg-pattern-card.svg");
+     background-size: cover;
+     height: 150px;
+ }
+
+.part2{
+    padding:0 20px 25px;
+}
+
+ .img-victor {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     border: 5px solid white;
+     overflow: hidden;
+     margin: -50px auto 30px auto;
+ }
+
+ .img-victor img {
+     width:100%;
+     height:auto;
+     display: block;
+     
+ }
+
+.nom{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.age,
+.ville,
+.info1{
+    font-weight: 400;
+    color:hsl(0, 0%, 59%);
+     opacity: .5;
+}
+
+
+ .age
+ {
+    font-weight: 400;
+    margin-left: 6px;
+ }
+
+ .ville{
+     font-size: 18px;
+
+ }
+
+
+ .part3 {
+     border-top: 1px solid hsl(0, 0%, 59%);
+     display: flex;
+     padding:0 25px;
+  
+ }
+
+ .part3 .info{
+    flex: 1;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .part3 .info .valeur{
+     font-size: 18px;
+     margin-bottom: 6px;
+
+ }
+
+ .part3 .info .info1{
+     font-size: 18px;
+     letter-spacing: 1px;
+ }
+
+
+ .cercles .top,
+ .cercles .bottom{
+     position:absolute;
+     width: 800px;
+     height: auto;
+     
+
+ }
+
+ .cercles .top{
+     top: -450px;
+     left: -200px;
+     position: fixed;
+ }
+
+ .cercles .bottom{
+    bottom: -450px;
+    right: -200px;
+    position: fixed;
+ }
+
+ .attribution{
+    position: absolute;
+    font-size: 11px;
+    color: hsl(228, 45%, 44%);
+    bottom: 0 ;
+    left: 0;
+    width: 100%;
+    padding:20px;
+    text-align: center;
+
+ }
+
+ 
+
